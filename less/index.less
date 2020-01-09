@@ -1,4 +1,8 @@
-//Will Update
+//variables
+@white: white;
+@pinkcolor: #ff5a5f;
+
+//mixins
 
 @font-face {
     font-family: 'Montserrat';
@@ -28,18 +32,18 @@
     outline: none;
     background: none;
     padding: 0;
-    color: #ffff;
+    color: @white;
     font-size: 16px;
     transition: 0.4s all;
     line-height: 40px;
     width: 0px;
   }
   ::placeholder {
-    color: white;
+    color: @white;
     opacity: 1;
   }
   .btn {
-    color: #ff5a5f;
+    color: @pinkcolor;
     float: right;
     text-decoration: none;
     width: 40px;
@@ -53,11 +57,11 @@
     padding: 0 6px;
   }
   .search-box:hover .btn {
-    background-color: white;
+    background-color: @white;
   }
 
   .home a:hover {
-    color: #ff5a5f;
+    color: @pinkcolor;
     transition: all 0.2s ease-in;
   }
   .home {
@@ -97,15 +101,15 @@
     .boxN1-item {
         text-decoration: none;
         color: black;
-        background-color: white;
+        background-color: @white;
         border-radius: 10px;
         padding: 10px;
         opacity: 0.9;
       }
       
       .boxN1-item:hover {
-        color: white;
-        background: #ff5a5f;
+        color: @white;
+        background: @pinkcolor;
         transition: all 0.3s ease-in;
       }
   }
