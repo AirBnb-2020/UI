@@ -20,10 +20,6 @@ html {
 body {
   width: 0 100%;
 }
-.search-box {
-  border: 1px solid white;
-  border-radius: 50px;
-}
 .input_box {
   border: none;
   outline: none;
@@ -36,7 +32,7 @@ body {
   width: 0px;
 }
 ::placeholder {
-  color: lightgray;
+  color: white;
   opacity: 1;
 }
 .btn {
@@ -55,14 +51,6 @@ body {
 }
 .search-box:hover .btn {
   background-color: white;
-}
-.home-item {
-  padding: 5px 5px;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 1.5rem;
-  border: 1px solid white;
-  border-radius: 5px;
 }
 .home a:hover {
   color: #ff5a5f;
@@ -83,14 +71,11 @@ body {
   font-size: 1.8rem;
   height: 100vh;
   background-color: #E0FFFF;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("imgs/berlin.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imgs/berlin.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-.logo {
-  width: 60%;
 }
 .box-nav1 {
   display: flex;
@@ -98,7 +83,10 @@ body {
   align-items: center;
   margin-bottom: 240px;
 }
-.boxN1-item {
+.box-nav1 .logo {
+  width: 60%;
+}
+.box-nav1 .boxN1-item {
   text-decoration: none;
   color: black;
   background-color: white;
@@ -106,7 +94,7 @@ body {
   padding: 10px;
   opacity: 0.9;
 }
-.boxN1-item:hover {
+.box-nav1 .boxN1-item:hover {
   color: white;
   background: #ff5a5f;
   transition: all 0.3s ease-in;
@@ -121,12 +109,20 @@ nav {
   justify-content: space-around;
   margin-top: -20px;
 }
-.nav-butts {
+nav .nav-butts {
   display: flex;
   justify-content: space-between;
   width: 30%;
   margin: 0 0 0 30%;
   align-items: flex-end;
+}
+nav .nav-butts .home-item {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 footer p {
   color: white;
