@@ -211,7 +211,6 @@ footer p {
   padding: 0 auto;
   margin: 0 auto;
 }
-
 @media (max-width: 500px) {
   .slider {
     width: 100%;
@@ -229,6 +228,28 @@ footer p {
   justify-content: center;
   display: flex;
   padding-bottom: 10px;
+}
+.slide-wrap .slide-number a:hover {
+  color: #ff5a5f;
+}
+.slide-wrap .slide-number a:active {
+  color: blue;
+}
+.slider .slide .profile1 .Alicia {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+.slide-number {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.slide-wrap {
+  width: 30%;
 }
 .slider .slide .profile1 .Alicia {
   border-radius: 30px;
