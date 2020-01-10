@@ -178,21 +178,8 @@ footer p {
     width: 40%;
   }
 }
-.mugShots img {
-  border-radius: 6%;
-}
-.mugShots .Alicia {
-  max-width: 70%;
-  height: auto;
-}
-.mugShots .V {
-  max-width: 80%;
-}
-.mugShots .Arash {
-  max-width: 70%;
-}
-.mugShots .Pat {
-  max-width: 40%;
+.mugShots img .V {
+  border-radius: 200px;
 }
 .mugShots .name {
   font-weight: bold;
@@ -205,6 +192,83 @@ footer p {
     align-items: center;
   }
 }
+.slide-wrap {
+  width: 100%;
+  color: white;
+  font-size: 3rem;
+}
+.slide-wrap a {
+  color: white;
+  text-decoration: none;
+  padding: 0 2%;
+}
+.slider {
+  width: 60%;
+  display: flex;
+  overflow-x: hidden;
+  height: 70vh;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+.slide-number {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.slide-wrap {
+  width: 30%;
+}
+.slider .slide .profile1 .Alicia {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slider .slide .profile2 .V {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slider .slide .profile3 .Pat {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slider .slide .profile4 .Arash {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slider .slide .profile5 .Andrew {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slider .slide .profile6 .Marilyn {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slider .slide .profile7 .Maxie {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slider .slide .profile8 .Scott {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.slider .slide .profile9 .Gurpreet {
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.Special-p {
+  background-color: rgba(0, 0, 0, 0);
+}
+p {
+  background-color: rgba(0, 0, 0, 0.466);
+}
 .leftFoot {
   margin-bottom: 35px;
+  text-shadow: 5px 5px 5px 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.nailPolish {
+  background-color: rgba(0, 0, 0, 0);
 }
